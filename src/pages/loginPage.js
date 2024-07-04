@@ -20,7 +20,8 @@ const LoginPage = () => {
     sx={{ }}
   >
      <Grid item >
-      <Typography variant="h1"sx={{fontSize: {md:'5vh',xs:'3vh'},m:{md:"2vh",xs:"2vh"}}}>Portfolio Management Service</Typography>
+      <Typography variant="h1" color="secondary" sx={{fontSize: {md:'5vh',xs:'3vh'},m:{md:"2vh",xs:"2vh"},fontWeight:"bold"}}>Portfolio Management Service</Typography>
+
     </Grid>
 
    <Grid item>
