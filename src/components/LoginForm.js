@@ -39,7 +39,7 @@ const LoginForm = () => {
           Login
         </Button>
         <Link href="/register" underline="none" sx={{mt:2,color:"grey"}}>
-          Not have an account ? Register Here!
+          Don't have an account ? Register Here!
         </Link>
         
       </Box>

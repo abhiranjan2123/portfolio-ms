@@ -1,15 +1,9 @@
 import React from 'react'
-import {Box, Grid, Typography } from '@mui/material'
+import {Grid, Typography } from '@mui/material'
 import LoginForm from '../components/LoginForm'
 import Divider from "@mui/material/Divider";
 const LoginPage = () => {
   return (
-
-    <Box
-    display='flex'
-    alignItems='center'
-    justifyContent='center'
-    >
     <Grid
     container
     spacing={0}
@@ -17,7 +11,6 @@ const LoginPage = () => {
     alignItems="center"
     justifyContent="center"
     mt={"20vh"}
-    sx={{ }}
   >
      <Grid item >
       <Typography variant="h1" color="secondary" sx={{fontSize: {md:'5vh',xs:'3vh'},m:{md:"2vh",xs:"2vh"},fontWeight:"bold"}}>Portfolio Management Service</Typography>
@@ -32,7 +25,7 @@ const LoginPage = () => {
       <LoginForm />
     </Grid>
   </Grid>
-  </Box>
+
   )
 }
 

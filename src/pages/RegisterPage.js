@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid } from '@mui/material'
+import { Grid,Typography } from '@mui/material'
 import RegisterForm from '../components/RegisterForm';
 import Divider from "@mui/material/Divider";
 const RegisterPage = () => {
@@ -10,14 +10,15 @@ const RegisterPage = () => {
     direction="row"
     alignItems="center"
     justifyContent="center"
-    sx={{ minHeight: '100vh' }}
+    mt={"15vh"}
   >
-     <Grid item xs={3}>
-      <h1>Portfolio Management Service</h1>
+     <Grid item >
+      <Typography variant="h1" color="secondary" sx={{fontSize: {md:'5vh',xs:'3vh'},m:{md:"2vh",xs:"2vh"},fontWeight:"bold"}}>Portfolio Management Service</Typography>
+
     </Grid>
 
-   <Grid item>
-    <Divider orientation="vertical"   flexItem  sx={{ m: 10,height:"50vh" }} />
+    <Grid item>
+    <Divider orientation="vertical"   flexItem  sx={{display:{xs:"none",md:"block"},m:'3vh',height:{xs:'0',md:'50vh'} }} />
     </Grid>
 
     <Grid item xs={3}>
